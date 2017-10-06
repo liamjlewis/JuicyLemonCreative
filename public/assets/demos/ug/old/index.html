@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="umberto">
+<head>
+  <meta charset="UTF-8">
+  <title>Umberto Giannini - Christmas Cracker</title>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/angular/angular-animate.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/services.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div id="top" class="sparkleHouse"></div>
+<div class="container-fluid">
+	<div class="header">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 tAlC">
+				<img alt="Umberto Giannini" class="logo" src="images/umberto-giannini.png" />
+			</div>
+			<a href="http://umbertogiannini.com/products/range/gifts" target="_blank">
+				<div class="col-md-3 tAlC buyGS">
+					<div><img alt="Buy a Gift Set" src="images/gift.png">View our Gift Collection</div>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="main" ng-view></div>
+</div>
+<div class="footer">&copy; 2015 Umberto Giannini | <a href="">Terms</a> | <a href="">Privacy</a></div>
+</body>
+</html>

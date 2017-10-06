@@ -1,0 +1,1 @@
+[29-Nov-2015 17:56:47 UTC] PHP Parse error:  syntax error, unexpected 'connect' (T_STRING), expecting function (T_FUNCTION) in /home/umbertogiannini/staging/ajax/connect/Db.php on line 38

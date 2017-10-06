@@ -1,0 +1,120 @@
+<section class="congratsPage">
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h1 class="tAlC"><img alt="Congratulations!" src="images/congrats.png" /></h1>
+        <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 winMes">
+        <!--<div class="bow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <div class="col-md-4 col-sm-4 tAlR" ng-if="whatWon != 0">
+          <img ng-src="{{whatWonSRC}}" />
+          </div>
+          <div class="col-md-8 col-sm-8 wonBlurb" ng-if="whatWon != 0">
+            <h2 style="font-weight:400">You've Won</h2>
+            <p><span class="whatWon">{{whatWon}}</span></p>
+            <p><span style="claimIt">Here’s how you claim it:</span></p>
+            <p ng-if="isVou == 1">Log on to Boots.com and use the voucher code: UGHAIRSV2</p>
+            <p ng-if="isVou == 0">Please email us at <a href="mailto:info@umbertogiannini.co.uk" style="color:#000; text-decoration:none;">info@umbertogiannini.co.uk</a> with your full name and address. Your prize will then be on its way to you very soon!</p>
+            <p><a style="color:#000; text-decoration:none; font-size: 11px; float: right;margin-top: 30px;" target="_blank" href="#/terms">Terms & Conditions apply</a></p>
+          </div>
+          <div class="col-sm-offset-2 col-md-offset- col-md-8 col-sm-8 wonBlurb" ng-if="whatWon == 0">
+            <h2>Oh no!</h2>
+            <p>We're sorry but there seems to have been an error, please contact the administrators and explain the issue.</p><p>If you've refreshed the page after winning a prize, there is no need to contact anyone, your email should be on its way soon!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row tAlC sendFriend">
+      <div class="col-md-10 col-md-offset-1">
+        <!-- <p style="font-weight:bold; color: black; text-transform:uppercase">Christmas gift sets (worth up to £20), a vist to our flagship salon (worth up to £75) and many more glamorous prizes still to be won!</p> -->
+        <p style="font-weight:bold; color:#000; font-size:17px">THERE ARE STILL HUNDREDS MORE PRIZES TO BE WON!</p>
+        <p style="color:#000">LUXURY SALON EXPERIENCES WORTH UP TO £75 | GLAMOROUS GIFT SETS | SUPER STAR PRODUCTS | MONEY OFF VOUCHERS</p>
+        <p></p>
+        <!-- <h2><img alt="Now pull a cracker with a friend" src="images/pullwithafriend.png" alt="Now Pull a Cracker With a Friend" /></h2> -->
+        <div class="share-ribbon-cont">
+          <div class="share-ribbon">
+            <div class="l1">Now pull a cracker</div>
+            <div class="l2">with a friend</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-8 col-md-offset-2 frForm">
+        <!--<div class="col-md-6">
+          <p>Names go here:</p>
+        </div>-->
+        <!--<div class="col-md-6">
+          <p>Email addresses go here:</p>
+        </div>-->
+            <form class="sendToFriend">
+            <div class="col-md-6 left">
+              <input type="text" placeholder="First Name" ng-model="frName1" />
+            </div>
+            <div class="col-md-6 right">
+              <input type="text" placeholder="Email" ng-model="frEmail1" />
+            </div>
+            <div class="visible-sm visible-xs">&nbsp;</div>
+                <div class="col-md-6 left">
+                  <input type="text" placeholder="First Name" ng-model="frName2" />
+                </div>
+                <div class="col-md-6 right">
+                  <input type="text" placeholder="Email" ng-model="frEmail2" />
+                </div>
+                <div class="visible-sm visible-xs">&nbsp;</div>
+                    <div class="col-md-6 left">
+                      <input type="text" placeholder="First Name" ng-model="frName3" />
+                    </div>
+                    <div class="col-md-6 right">
+                      <input type="text" placeholder="Email" ng-model="frEmail3" />
+                    </div>
+              <div class="col-md-12 frError"><p></p></div>
+              <div class="col-md-12">
+                <button class="frButton" ng-click="frDeetsSubmit()">send invitations</button>
+              </div>
+            </form>
+      </div>
+    </div>
+      <!--<div class="col-md-2">
+        <p>(Don't worry we won't use their email address for anything other than telling them you've asked to pull a cracker with them)</p>
+      </div>-->
+    </div>
+    <div class="row tAlC gSetsShad">
+    <!--<div class="grayOverlay"></div>-->
+      <div class="col-md-8 col-md-offset-2">
+        <h3><a href="http://umbertogiannini.com/products/range/gifts" target="_blank" style="font-weight:400">Our Gift Collection</a></h3>
+        <p>Thanks for pulling a cracker with us! While you're here why not take a look at our gorgeous gifts available at Boots this Christmas?</p>
+      </div>
+      <div class="col-md-8 col-md-offset-2 gSets noPad clearfix">
+        <div class="gSet">
+          <!--<div class="gSetBow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <img class="gSetImg" src="images/beautilicious2.jpg" />
+          <p class="gSetPrice">£10</p>
+          <a href="http://www.boots.com/en/Umberto-Giannini-Beautilicious-Hair-Secrets_1718961/"><p class="gSetBuy">Buy Now</p></a>
+        </div>
+        <div class="gSet">
+          <!--<div class="gSetBow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <img class="gSetImg" src="images/curlstory2.jpg" />
+          <p class="gSetPrice">£16</p>
+          <a href="http://www.boots.com/en/Umberto-Giannini-A-Curl-Story_1718965"><p class="gSetBuy">Buy Now</p></a>
+        </div>
+        <div class="gSet">
+          <!--<div class="gSetBow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <img class="gSetImg" src="images/beautybox2.jpg" />
+          <p class="gSetPrice">£18</p>
+          <a href="http://www.boots.com/en/Umberto-Giannini-Beauty-Box_1718967/"><p class="gSetBuy">Buy Now</p></a>
+        </div>
+        <div class="gSet">
+          <!--<div class="gSetBow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <img class="gSetImg" src="images/glambox2.jpg" />
+          <p class="gSetPrice">£18</p>
+          <a href="http://www.boots.com/en/Umberto-Giannini-Beauty-Box_1718967/"><p class="gSetBuy">Buy Now</p></a>
+        </div>
+        <div class="gSet">
+          <!--<div class="gSetBow"><img alt="A decorative bow" src="images/bow.png"></div>-->
+          <img class="gSetImg" src="images/glamvoyage3.jpg" />
+          <p class="gSetPrice">£20</p>
+          <a href="http://www.boots.com/en/Umberto-Giannini-Glamvoyage-Weekend-Away-Kit_1718969"><p class="gSetBuy">Buy Now</p></a>
+        </div>
+      </div>
+    </div>
+</section>

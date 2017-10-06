@@ -1,0 +1,186 @@
+{
+				"employment" : [
+					{
+						"urlRef": "immediate-media",
+						"companyName" : "Immediate Media",
+						"timePeriod" : ["October 2016 to June 2017"],
+						"skills" : ["HTML5", "CSS3", "AngularJS", "AJAX", "RESTful APIs", "Web Sockets", "WordPress", "PHP", "jQuery", "Vanilla JS", "GULP", "eCommerce"],
+						"description" : "<p>I worked with Immediate Media on an eCommerce platform for their new TV shopping channel that was launched in February. The site features a live auction with product information provided using sockets and AJAX calls to a RESTful API from AngularJS. Other disciplines used: HTML5, CSS3, WordPress & PHP.</p>",
+						"logoURL" : "images/immediate-media.png",
+						"siteURL" : "https://www.sewingquarter.com/",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "countrywide",
+						"companyName" : "Countrywide",
+						"timePeriod" : ["March to August 2016"],
+						"skills" : ["HTML5", "CSS3", "jQuery", "Vanilla JS", "GULP", "Design Work", "ReactJS", "NodeJS", "RESTful APIs", "eCommerce"],
+						"description" : "<p>I worked in Countrywide’s front-end team building a portal for their customers to buy or sell property. We had a fast turnover using SASS (with the Gridle framework), HTML, jQuery and GULP. I also worked on updating their internal bookings system using ReactJS and NodeJS (with Express).</p>",
+						"logoURL" : "images/countrywide.jpg",
+						"siteURL" : "http://www.countrywide.com",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "indesign-studio-x",
+						"companyName" : "Indesign Studio X",
+						"timePeriod" : ["Jan to Feb 2016"],
+						"skills" : ["HTML5", "CSS3", "jQuery", "Vanilla JS", "Shopify", "Design Work", "eCommerce"],
+						"description" : "<p>Indesign Studio X required my services for various  eCommerce site fixes and new features requested by their clients. I used  JavaScript , jQuery ,  HTML5 ,  CSS3 & Bootstrap . Indesign Studio X work mainly with Shopify and are rated as the  #2 Shopify expert.</p>",
+						"logoURL" : "images/indesignstudiox.jpg",
+						"siteURL" : "http://indesignstudiox.com/",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "giants-and-titans",
+						"companyName" : "Giants & Titans",
+						"timePeriod" : ["December 2015 to January 2016", "March to July 2016"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "AngularJS", "WordPress", "AJAX", "PHP", "MySQL", "eCommerce"],
+						"description" : "<p>Giants & Titans required an  AngularJS web app for their haircare client Umberto Giannini. The project involved the build of a bespoke prize picker that could distribute prizes fairly between a varying number of final users. I built the project with using  AngularJS , WordPress,   AJAX ,  PHP ,  MySQL ,  HTML5 ,  CSS3  &  Bootstrap.</p>",
+						"logoURL" : "images/gandt.png",
+						"siteURL" : "http://www.giantsandtitans.com",
+						"relatedItems" : [{"name":"Umberto Giannini", "urlRef":"umberto-giannini"}, {"name":"Kumho Tyres", "urlRef":"kumho-tyres"}]
+					},
+					{
+						"urlRef": "planet-9",
+						"companyName" : "Planet-9",
+						"timePeriod" : ["April 2015 to October 2015"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "jQuery", "Vanilla JS", "WordPress", "AJAX", "PHP", "MySQL", "eCommerce"],
+						"description" : "<p>I’ve worked on a number of projects with Planet-9. Most recently I was the sole developer on a project that delivered a competition using  WordPress ,  HTML5 ,  CSS3 ,  Bootstrap ,  PHP ,  jQuery and MySQL to manage 70,000 unique prize codes, collect user info and provide a  fully bespoke admin area . Planet-9 were impressed with my performance.</p>",
+						"logoURL" : "images/planet-9.jpg",
+						"siteURL" : "http://www.planet-9.com",
+						"relatedItems" : [{"name":"Umberto Giannini", "urlRef":"umberto-giannini"}, {"name":"Kumho Tyres", "urlRef":"kumho-tyres"}]
+					},
+					{
+						"urlRef": "1hq",
+						"companyName" : "1HQ",
+						"timePeriod" : ["May 2015"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "Design"],
+						"description" : "<p>1HQ required final  Photoshop designs to be created from wireframes that would be ideal for development with  Bootstrap . The contract lasted for 2 weeks. 1HQ were pleased with the quality and speed of my work.</p>",
+						"logoURL" : "images/1hq.jpg",
+						"siteURL" : "http://www.1hq.com",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "juicy-lemon-creative",
+						"companyName" : "Juicy Lemon Creative",
+						"timePeriod" : ["October 2014 to April 2015"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "AngularJS", "jQuery", "Vanilla JS", "WordPress", "AJAX", "PHP", "MySQL", "RESTful APIs", "ReactJS", "NodeJS"],
+						"description" : "<p>Over the winter of 2014/15 I worked freelance with my company Juicy Lemon Creative, building websites for businesses & entrepreneurs. Key skills included:  WordPress ,  HTML5 ,  CSS3 , Bootstrap ,  PHP ,  jQuery ,  MySQL.</p>",
+						"logoURL" : "images/jlc.png",
+						"siteURL" : "",
+						"relatedItems" : [{"name":"Umberto Giannini", "urlRef":"umberto-giannini"}, {"name":"Kumho Tyres", "urlRef":"kumho-tyres"}]
+					},
+					{
+						"urlRef": "shopify-builder",
+						"companyName" : "Shopify Builder",
+						"timePeriod" : ["April to October 2014"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "jQuery", "Vanilla JS", "WordPress", "Shopify", "eCommerce"],
+						"description" : "<p>I was headhunted for my role at Shopify Builder where I enjoyed creating a range of bespoke  eCommerce and  WordPress sites, also using  HTML5 ,  CSS3 ,  Bootstrap &  PHP . Over time I became the lead JavaScript  & jQuery developer, reducing the amount of outsourcing the company had to do.</p>",
+						"logoURL" : "images/shopifybuilder.jpg",
+						"siteURL" : "http://www.shopifybuilder.com",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "connect-distribution",
+						"companyName" : "Connect Distribution",
+						"timePeriod" : ["January to April 2014"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "jQuery", "Vanilla JS", "WordPress", "eCommerce"],
+						"description" : "<p>I was part of and IT team that maintained 50 different  eCommerce sites with total pageviews upwards of 1 million a month. Key skills: WordPress, PHP ,  MySQL ,  HTML5 ,  CSS3  &  Bootstrap.</p>",
+						"logoURL" : "images/connect.jpg",
+						"siteURL" : "www.connect-distribution.com",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "whisk",
+						"companyName" : "Whisk",
+						"timePeriod" : ["August to October 2013"],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "jQuery", "Vanilla JS", "WordPress", "eCommerce"],
+						"description" : "<p>I worked as a  front-end developer and  designer , creating new WordPress integrated pages for the site, from the initial photoshop design to the final functional page.Key skills:  WordPress, PHP , JavaScript ,  HTML5 ,  CSS3  &  Bootstrap.</p>",
+						"logoURL" : "images/whisk.jpg",
+						"siteURL" : "",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					}
+				],
+				"portfolio" : [
+					{
+						"urlRef": "juicy-lemon-creative",
+						"companyName" : "Juicy Lemon Creative",
+						"timePeriod" : ["October 2016"],
+						"skills" : ["HTML5", "CSS3", "ReactJS", "AJAX", "RESTful APIs", "Web Sockets", "jQuery", "Vanilla JS"],
+						"description" : "<p>This brand new Juicy Lemon Creative portfolio site is built with React, Vanilla JS and Firebase as an API, with a custom NodeJS API planned for the future.</p>",
+						"logoURL" : "images/jlc.png",
+						"siteURL" : "",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "sewing-quarter",
+						"companyName" : "Sewing Quarter",
+						"timePeriod" : ["June 2016"],
+						"skills" : ["HTML5", "CSS3", "AngularJS", "AJAX", "RESTful APIs", "Web Sockets", "WordPress", "PHP", "jQuery", "Vanilla JS", "GULP", "eCommerce"],
+						"description" : "<p>The Sewing Quarter is a new TV shopping channel who’s website needed to be edited by stocking, PR and marketing departments. The site also needed to function an effective way to watch and buy with ease primarily from tablet and phone. WordPress was used as a CMS with a custom built theme to match given designs. AngularJS with web sockets were used to show items being used in the live stream, the item data and images were fed from a .net API.</p>",
+						"logoURL" : "images/sq.jpg",
+						"siteURL" : "http://www.sewingquarter.com/",
+						"relatedItems" : [{"name":"Immediate Media", "urlRef":"immediate-media"}]
+					},
+					{
+						"urlRef": "umberto-giannini",
+						"companyName" : "Umberto Giannini",
+						"timePeriod" : ["December 2015" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "AngularJS", "WordPress", "AJAX", "PHP", "MySQL", "eCommerce"],
+						"description" : "<p>Umberto Giannini were planning a Christmas prize giveaway offering their fans a chance to win products and salon experiences in their Birmingham and Manchester branches. The user entered their contact info and then proceeded to pull a slider across the screen that caused a cracker to shake and then explode. The project was built in AngularJS, using AJAX, PHP and MySQL to collect data, all housed within WordPress.</p>",
+						"logoURL" : "images/ug.jpg",
+						"siteURL" : "/assets/demos/ug/",
+						"relatedItems" : [{"name":"Planet-9", "urlRef":"planet-9"}, {"name":"Giants & Titans", "urlRef":"giants-and-titans"}]
+					},
+					{
+						"urlRef": "kumho-tyres",
+						"companyName" : "Kumho Tyres",
+						"timePeriod" : ["August 2015" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "AngularJS", "WordPress", "AJAX", "PHP", "MySQL", "eCommerce"],
+						"description" : "<p>I created a cinema competition for Kumho Tyres that consisted of a details capture page (pictured) and also a bespoke admin area (for privacy reasons not pictured) that charts all prize-code redemptions by date or number and allows data export and import. The project managed 70,000 prize-codes to be given out at 126 stores.</p>",
+						"logoURL" : "images/kumho.jpg",
+						"siteURL" : "",
+						"relatedItems" : [{"name":"Planet-9", "urlRef":"planet-9"}, {"name":"Giants & Titans", "urlRef":"giants-and-titans"}]
+					},
+					{
+						"urlRef": "dine-birmingham",
+						"companyName" : "Dine Birmingham",
+						"timePeriod" : ["January 2015" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "WordPress", "AJAX", "PHP", "MySQL", "eCommerce", "Migration"],
+						"description" : "<p>When I was approached by Dine Birmingham they told me they wanted to move their existing site from Tumblr to WordPress, which was done with ease and with added functionality such as news and events carousels and a custom search function.</p><p>Dine Birmingham were concerned their SEO would be affected by the move, so a lot of care was taken to redirect all pages from the old Tumblr site to the new one. Viewership increased immediately after the new site launched and Dine Birmingham found that they received more partnership enquiries after going live.</p><p class='quote'>&quot;I commissioned a total site redesign and was incredibly happy with the final result – a professional and attractive website that began to bring in many more enquiries almost as soon as it launched. Throughout the process, service was friendly and accommodating, and I felt there was a real understanding of my needs as a client. I wouldn’t hesitate to recommend Juicy Lemon Creative to my friends and contacts. In fact I already have!&quot; – Ahmed Ahmed, Dine Birmingham</p>",
+						"logoURL" : "images/db.jpg",
+						"siteURL" : "http://www.dinebirmingham.co.uk",
+						"relatedItems" : [{"name":"Juicy Lemon Creative", "urlRef":"juicy-lemon-creative"}]
+					},
+					{
+						"urlRef": "regal-gentlemen",
+						"companyName" : "Regal Gentlemen",
+						"timePeriod" : ["November 2014" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "Shopify", "eCommerce", "AJAX", "PHP", "MySQL"],
+						"description" : "<p>Regal Gentleman needed a clean and professional design for their male grooming products website. The site was a brand new build, so building a site to properly reflect a band was essential.</p><p>Regal Gentleman are a company who are passionate about their products, and since the launch have been growing and making a name for themselves in the male grooming world.</p>",
+						"logoURL" : "images/rg.jpg",
+						"siteURL" : "https://regalgentleman.com/",
+						"relatedItems" : [{"name":"Juicy Lemon Creative", "urlRef":"juicy-lemon-creative"}]
+					},
+					{
+						"urlRef": "natas-asbestos",
+						"companyName" : "Natas Asbestos",
+						"timePeriod" : ["October 2014" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "WordPress", "eCommerce", "AJAX", "PHP", "MySQL"],
+						"description" : "<p>Natas needed a site building from scratch that clearly displayed a lot of information and different product descriptions. They wanted a corporate feel to the work and needed to be able to update their site as their products change.</p>",
+						"logoURL" : "images/na.jpg",
+						"siteURL" : "https://www.natas.co.uk/",
+						"relatedItems" : [{"name":"Juicy Lemon Creative", "urlRef":"juicy-lemon-creative"}]
+					},
+					{
+						"urlRef": "muscle-fitness-factory",
+						"companyName" : "Muscle Fitness Factory",
+						"timePeriod" : ["October 2014" ],
+						"skills" : ["HTML5", "CSS3", "Bootstrap", "Shopify", "eCommerce", "AJAX", "PHP", "MySQL"],
+						"description" : "<p>Muscle Fitness Factory had some very specific ideas for the look of their site. They supplied their own Photoshop files with the exact design they wanted. Their vision was quickly and accurately delivered. They have since enjoyed healthy sales and growth.</p>",
+						"logoURL" : "images/mff.jpg",
+						"siteURL" : "https://www.musclefitnessfactory.com/",
+						"relatedItems" : [{"name":"Juicy Lemon Creative", "urlRef":"juicy-lemon-creative"}]
+					}
+				]
+		}

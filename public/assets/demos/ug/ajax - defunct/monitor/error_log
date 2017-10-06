@@ -1,0 +1,6 @@
+[12-Dec-2015 00:45:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 26
+[12-Dec-2015 00:45:04 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 49
+[12-Dec-2015 00:46:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 26
+[12-Dec-2015 00:46:01 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 49
+[17-Dec-2015 14:50:41 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 26
+[17-Dec-2015 14:50:41 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/umbertogiannini/public_html/ajax/monitor/connect/Db.php on line 49
