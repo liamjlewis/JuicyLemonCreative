@@ -33,7 +33,7 @@ class Nav extends Component {
         <div className="container">
           <div className="row">
             <ul className="col-lg-12">
-              <a href="/assets/liam-lewis-cv-sept-17.pdf" target="_blank" download><li>download CV</li></a>
+              <a href="/assets/liam-lewis-cv.pdf" target="_blank" download><li>download CV</li></a>
               <li><Link to="/contact">Contact</Link></li>
               <li><Link to="/work-list">Work History</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
@@ -52,7 +52,7 @@ class Nav extends Component {
                 <li onClick={this.showMobMenu}><Link to="/portfolio">Portfolio</Link></li>
                 <li onClick={this.showMobMenu}><Link to="/work-list">Work History</Link></li>
                 <li onClick={this.showMobMenu}><Link to="/contact">Contact</Link></li>
-                <a onClick={this.showMobMenu} href="/assets/liam-lewis-cv-sept-17.pdf" target="_blank" download><li>download CV</li></a>
+                <a onClick={this.showMobMenu} href="/assets/liam-lewis-cv.pdf" target="_blank" download><li>download CV</li></a>
               </ul>
             </div>
           }

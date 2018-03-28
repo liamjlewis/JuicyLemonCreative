@@ -1,6 +1,26 @@
 {
 				"employment" : [
 					{
+						"urlRef": "zone",
+						"companyName" : "Zone",
+						"timePeriod" : ["Feb 2018 to Mar 2018"],
+						"skills" : ["HTML5", "CSS3", "ReactJS", "Redux", "Umbraco", "AJAX", "RESTful APIs", "Vanilla JS", "ES6", "Yarn", "eCommerce"],
+						"description" : "<p>Zone required a developer to quickly deliver two Umbraco modules for a pub chain client of theirs. They required a JavaScript photo-gallery slider built with Vanilla JS using ES6. they also required a React/Redux SPA that showed pub locations on input of postcode/town, managing multiple AJAX calls to RESTful APIs. The work involved close collaboration with .net developers and working to the specifications of existing JS solutions. Meticulous use of Git was key, along with a strong focus on cross-device compatibility.</p>",
+						"logoURL" : "images/zone.jpg",
+						"siteURL" : "https://www.zonedigital.com/",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
+						"urlRef": "kagool",
+						"companyName" : "Kagool",
+						"timePeriod" : ["Nov 2017 to Jan 2018"],
+						"skills" : ["HTML5", "CSS3", "ReactJS", "AngularJS", "Sitecore", "SASS", "LESS", "AJAX", "RESTful APIs", "jQuery", "Vanilla JS", "ES6", "GULP", "eCommerce", "AMP", "Google Schema"],
+						"description" : "<p>Kagool (an award-winning digital agency) hired me to tackle a heavy workload with their roster of multi-million-pound clients. I worked on a variety of projects with: React, AngularJS, Sitecore, SASS/LESS, on cross-device compatibility and SEO practices (incl AMP & Google schema).</p>",
+						"logoURL" : "images/kagool.jpg",
+						"siteURL" : "http://www.bekagool.com/",
+						"relatedItems" : [{"name":"", "urlRef":""}]
+					},
+					{
 						"urlRef": "immediate-media",
 						"companyName" : "Immediate Media",
 						"timePeriod" : ["October 2016 to June 2017"],
@@ -14,7 +34,7 @@
 						"urlRef": "countrywide",
 						"companyName" : "Countrywide",
 						"timePeriod" : ["March to August 2016"],
-						"skills" : ["HTML5", "CSS3", "jQuery", "Vanilla JS", "GULP", "Design Work", "ReactJS", "NodeJS", "RESTful APIs", "eCommerce"],
+						"skills" : ["HTML5", "CSS3", "SASS", "LESS", "jQuery", "Vanilla JS", "GULP", "Design Work", "ReactJS", "NodeJS", "RESTful APIs", "eCommerce"],
 						"description" : "<p>I worked in Countrywide’s front-end team building a portal for their customers to buy or sell property. We had a fast turnover using SASS (with the Gridle framework), HTML, jQuery and GULP. I also worked on updating their internal bookings system using ReactJS and NodeJS (with Express).</p>",
 						"logoURL" : "images/countrywide.jpg",
 						"siteURL" : "http://www.countrywide.com",
