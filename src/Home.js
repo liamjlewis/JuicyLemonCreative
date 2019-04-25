@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import fire from './fire.js';
 
 class Home extends Component {
 
@@ -7,10 +8,20 @@ class Home extends Component {
     super(props);
 
     //set up the states
-    this.state = {};
+    this.state = {
+      paragraph: null, 
+      skillsList: null
+    };
   }
 
   componentDidMount(){
+    let self = this;
+    fire.database().ref('/frontPage').on('value', function(snapshot) {
+      self.setState({
+        paragraph: snapshot.val().paragraph, 
+        skillsList: snapshot.val().skillsList
+      });
+    });
     this.fixFlex();
   }
 
@@ -47,12 +58,9 @@ class Home extends Component {
           </div>
           <div className="col-sm-7 flex-center-inner home-blurb mid-height">
             <div>
-              <p>Juicy Lemon Creative is the portfolio of me, Liam Lewis. I'm a Front-End Web Developer with 5+ years professional experience working in varied environments including creative agency, corporate and freelance. I work as a contractor, usually in eCommerce, mainly using using React, AngularJS and WordPress (amongst others).
-              </p>
+              <p>{this.state.paragraph}</p>
               <h2 className="inline">Some key skills: </h2>
-              <p className="small-list inline">
-                HTML5, CSS3, JavaScript ES6, jQuery, ReactJS, NodeJS, AngularJS, WordPress, Bootstrap, AJAX, PHP, MySQL, SASS/LESS, Git, SVN, web and graphic design, cross-device & browser compatibility.
-              </p>
+              <p className="small-list inline">{this.state.skillsList}</p>
             </div>
           </div>
         </div>
